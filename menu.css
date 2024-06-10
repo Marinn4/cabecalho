@@ -9,10 +9,10 @@ color:black;
 text-decoration: none;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.menu :hover{
+#menu :hover{
     background-color:azure;
 }
-#header{
+.header{
     box-sizing: border-box;
     height: 40px;
     padding: 10px;
@@ -26,6 +26,7 @@ display: flex;
 list-style: none;
 gap: 3px;
 }
+
 #menu a{
     display: block;
     padding: 2px;
@@ -40,6 +41,6 @@ gap: 3px;
     }
     #menu{
         display: none;
-        
+
     }
 }
