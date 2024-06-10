@@ -12,7 +12,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 #menu :hover{
     background-color:azure;
 }
-.header{
+#header{
     box-sizing: border-box;
     height: 40px;
     padding: 10px;
