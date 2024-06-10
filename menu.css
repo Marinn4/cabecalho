@@ -13,8 +13,33 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color:azure;
 }
 #header{
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkorange;
 }
 #menu{
 display: flex;
+list-style: none;
+gap: 3px;
+}
+#menu a{
+    display: block;
+    padding: 2px;
+}
+#bnt-mobi{
+    display: none;
+
+}
+@media ( max-width:400px) {
+    #btn-mobi{
+        display: block;
+    }
+    #menu{
+        display: none;
+        
+    }
 }
