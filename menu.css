@@ -9,7 +9,7 @@ color:black;
 text-decoration: none;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#menu :hover{
+#menu:hover{
     background-color:azure;
 }
 #header{
@@ -21,17 +21,17 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: space-between;
     background-color: darkorange;
 }
-#menu{
+#menu {
 display: flex;
 list-style: none;
 gap: 3px;
 }
 
-#menu a{
+#menu a {
     display: block;
     padding: 2px;
 }
-#bnt-mobi{
+#btn-mobi{
     display: none;
 
 }
