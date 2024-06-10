@@ -4,14 +4,12 @@ body,ul {
     
 }
 
-a{
+#nav{
 color:black;
 text-decoration: none;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#menu:hover{
-    background-color:azure;
-}
+
 #header{
     box-sizing: border-box;
     height: 40px;
@@ -21,12 +19,14 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: space-between;
     background-color: darkorange;
 }
-#menu {
+#menu{
 display: flex;
 list-style: none;
 gap: 3px;
 }
-
+#menu:hover{
+    background-color:azure;
+}
 #menu a {
     display: block;
     padding: 2px;
