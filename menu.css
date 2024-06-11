@@ -11,7 +11,7 @@ font-family: sans-serif;
 a:hover{
     background-color:rgb(11, 83, 83);
 }
-#header{
+.header{
     box-sizing: border-box;
     height: 70px;
     padding: 1rem;
@@ -20,13 +20,13 @@ a:hover{
     justify-content: space-between;
     background-color: rgb(0, 255, 85);
 }
-#menu{
+.menu{
 display: flex;
 list-style: none;
 gap: .5rem;
 }
 
-#menu a {
+.menu a {
     display: block;
     padding: .5rem;
 }
@@ -38,7 +38,7 @@ gap: .5rem;
     #btn-mobi{
         display: block;
     }
-    #menu{
+    .menu{
         display: none;
 
     }

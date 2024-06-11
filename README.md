@@ -1,2 +1,2 @@
-# cabecalho
+. cabecalho
 cod dda expo
