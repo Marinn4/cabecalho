@@ -40,11 +40,11 @@ gap: .5rem;
     #btn-mobi{
         display: block;
     }
-    .menu{
+    #menu{
         display: none;
 
     }
-    #nav.active .menu{
+    #nav.active #menu{
         display: flex;
     }
 }
