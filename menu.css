@@ -21,13 +21,13 @@ a:hover{
     justify-content:left;
    
 }
-.menu{
+#menu{
 display: flex;
 list-style: none;
 gap: .5rem;
 }
 
-.menu a {
+#menu a {
     display: block;
     padding: .5rem;
 
@@ -42,6 +42,10 @@ gap: .5rem;
     }
     #menu{
         display: none;
+
+    }
+    #nav.active #menu {
+        display:flex;
 
     }
 }
