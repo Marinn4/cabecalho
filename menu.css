@@ -24,7 +24,7 @@ a:hover{
 #menu{
 display: flex;
 list-style: none;
-gap: .5rem;
+
 }
 
 #menu a {
@@ -41,7 +41,6 @@ gap: .5rem;
         display: block;
     }
     #menu{
-        display: none;
         display: none;
         position: absolute;
         background-color: #f1f1f1;
