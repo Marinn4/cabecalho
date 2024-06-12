@@ -35,10 +35,16 @@ list-style: none;
 #btn-mobi{
     display: none;
     position: absolute;
-    width: 16px;
-    height: 12px;
-    left: 18px;
-    top: 20px;
+    background-color: #4CAF50; /* cor de fundo */
+    border: none; /* sem borda */
+    color: white; /* cor do texto */
+    padding: 15px 32px; /* preenchimento interno */
+    text-align: center; /* alinhamento de texto */
+    text-decoration: none; /* sem decoração de texto */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 4px 2px; /* margem */
+    cursor: pointer; /* cursor do mouse */
+    border-radius: 8px; /* borda arredondada */
     
 
 }
