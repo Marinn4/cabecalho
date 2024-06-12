@@ -18,8 +18,7 @@ a:hover{
     padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content:left;
-   
+    justify-content:left;  
 }
 #menu{
 display: flex;
@@ -51,12 +50,10 @@ background: #FFFBDA;
         display: block;
     }
     #menu{
-        display: none;
+        display:flex;
+        flex-direction: column;
         position: absolute;
-        background-color: #f1f1f1;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-       text-align: justify;
+       
         
     }
     #nav{
