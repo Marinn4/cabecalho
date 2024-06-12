@@ -33,16 +33,7 @@ list-style: none;
 }
 #btn-mobi{
     display: none;
-
-position: absolute;
-width: 16px;
-height: 2.33px;
-left: 18px;
-top: 31.67px;
-
-background: #FFFBDA;
-
-    
+background: #FFFBDA;  
 
 }
 @media ( max-width:600px) {
