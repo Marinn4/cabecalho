@@ -33,12 +33,12 @@ list-style: none;
 }
 #btn-mobi{
     display: none;
-background: #FFFBDA;  
-
+      
 }
 @media ( max-width:600px) {
     #btn-mobi{
-        display: block;
+        display: none;
+        flex-direction: column;
     }
     #menu{
         display:flex;
