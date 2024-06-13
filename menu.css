@@ -45,6 +45,9 @@ list-style: none;
         text-align:left;
         
     }
+    #menu li a{
+        text-align: left;
+    }
     #nav.active #menu {
         display:flex;
 
