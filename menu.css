@@ -42,6 +42,7 @@ list-style: none;
     #menu{
         display:none;
         position: absolute;
+        text-align:left;
         
     }
     #nav.active #menu {
