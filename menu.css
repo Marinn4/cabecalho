@@ -49,7 +49,7 @@ list-style: none;
         width: 100px;
         float:left;
     }
-    #nav.active #menu {
+    #btn.active #menu {
         display:flex;
 
     }

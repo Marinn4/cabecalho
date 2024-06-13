@@ -1,15 +1,15 @@
 <header id="header"> 
   <link href="menu.css" rel="stylesheet"/>
  
-<nav id="nav">
+<nav id="btn">
   <button  id="btn-mobi">menu</button>
  
     <script>
     const btnMobile = document.getElementById('btn-mobi');
  
       function toggleMenu() {
-          const nav = document.getElementById('nav');
-          nav.classList.toggle('active');
+          const btn = document.getElementById('btn');
+          btn.classList.toggle('active');
       }
       btnMobile.addEventListener ('click', toggleMenu);
       </script>
