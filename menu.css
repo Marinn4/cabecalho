@@ -32,25 +32,17 @@ list-style: none;
 
 }
 #btn-mobi{
-    display: none;
-      
+    display: none;  
 }
 @media ( max-width:600px) {
+  
     #btn-mobi{
-        display: none;
-        
+        display: block;
     }
     #menu{
-        display:flex;
-        flex-direction: column;
+        display:none;
         position: absolute;
-       
         
-    }
-    #nav{
-        position: relative;
-    display: inline-block;
-
     }
     #nav.active #menu {
         display:flex;
